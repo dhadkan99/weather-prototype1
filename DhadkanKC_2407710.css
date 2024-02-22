@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'sans-serif;
+    box-sizing: border-box;
+}
+body{
+   
+   background-image: url(https://w.wallhaven.cc/full/nz/wallhaven-nzm8ey.jpg);
+   
+    height: 100hv;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+    
+
+
+}
+.min{
+    position:fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 10%;  
+    display: flex;
+    justify-self: left;
+    align-items: left;
+    margin: auto;
+}
+.header{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.container{
+    width: 90%;
+    max-width: 500px;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto  ;
+    border-radius: 20px;
+    padding: 10px 35px;
+    text-align: center ;
+    background: linear-gradient(rgb(238, 237, 237), rgb(236, 236, 235));
+    opacity: 65%;
+    
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+#search-box input{
+    border: 0;
+    outline: 0;
+    background:linear-gradient(rgb(238, 237, 237), rgb(236, 236, 235));
+    color: #555;
+    padding: 30px 82px;
+    height: 52px;
+    border-radius: 40px;
+    flex: 1;
+    margin-top:16px;
+    margin-left :32%;
+    margin-right:-8%;
+    font-size: 18px;
+    opacity: 85%;
+    
+}
+#search-box button{
+    border: 0;
+    outline: 0;
+    background: linear-gradient(rgb(238, 237, 237), rgb(236, 236, 235));
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 9%;
+    margin-right:auto;
+    opacity: 75%;
+    
+}
+
+
+#search-box button img{
+    width: 16px;
+}
+.weather_icon{
+    width: 170px;
+    margin-top: 30px;
+
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    padding: 0 20px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+    margin: 15px;
+    font-weight: 400;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind,.pressure{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.foot{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.discription{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(22, 2, 21);
+    font-size: 45px;
+    font-weight: 400;
+}
+.time{
+    font-family:'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 20px;
+    font-weight: 200;
+}
